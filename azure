@@ -1,0 +1,12 @@
+To get history of a git : git log
+To get top 3 commits : git log -3
+To get only commit-ids and commit messages : git log --oneline
+To get only full commit-ids and commit messages : git log --pretty=oneline
+To get full commits of a single file : git log --follow --all filename 
+To get history of a commit : git show commit 
+To get history of a commit in stat format : git show commit --stat
+To configure user name : git config user.name “ourname”
+To configure email id : git config user.email “our-email”
+To edit the lastest commit message : git commit --amend -m “message”
+To edit author for latest commit : git commit --amend --author “name <mail>” 
+To commit the changes with prev commit : git commit --amend --no-edi
